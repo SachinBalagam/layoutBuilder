@@ -1,1 +1,12 @@
 /* Write your CSS here */
+.controller-bg-container {
+  background-color: #475569;
+  min-height: 150px;
+  padding: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+}

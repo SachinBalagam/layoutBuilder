@@ -1,1 +1,38 @@
 /* Write your CSS here */
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+.leftBar-card {
+  background-color: #e2e8f0;
+  padding: 10px;
+  margin: 10px;
+}
+.menu-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+.content-card {
+  background-color: #f1f5f9;
+  padding: 10px;
+  margin: 10px;
+}
+.description {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+@media Screen and (min-width: 768px) {
+  .body-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .leftBar-card {
+    height: 300px;
+    width: 300px;
+  }
+  .content-card {
+    height: 300px;
+    width: 400px;
+  }
+}
